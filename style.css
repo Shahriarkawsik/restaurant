@@ -113,3 +113,79 @@ section{
 .burger_container img, h3,p{
     text-align: center;
 }
+/*  Footer Start */
+footer{
+    display: flex;
+    height: 30vh;
+    margin-top: 10px;
+    background-color: rgb(210, 207, 207);
+}
+.self-div{
+    width: 25%;
+    margin: 3px;
+    padding: 20px;
+    
+}
+.self-div h3{
+    text-align: start;
+    margin-bottom: 10px;
+}
+.self-div p{
+    text-align: start;
+    color: black;
+    margin-left: 15px;
+
+} 
+.Social-icon{
+    margin-left: 10px;
+}
+.Social-icon a {
+    color: black;
+    font-size: large;
+    margin: 0 10px;
+}
+.Manu-List ul li{
+    display: block;
+    list-style-type: none;
+    margin: 7px 0;
+    position: relative;
+    left: 10px;
+}
+.Manu-List ul li a{
+    text-decoration: none;
+    font-weight: normal;
+    color: black;    
+}
+.Manu-List ul li:hover a{
+    border-bottom: 2px solid dodgerblue;
+    font-weight: bold;
+    transition: 0.15s;
+}
+.quick-Link ul li{
+    display: block;
+    list-style-type: none;
+    margin: 7px 0;
+    position: relative;
+    left: 10px;
+}
+.quick-Link ul li a{
+    font-weight: normal;
+    text-decoration: none;
+    color: black;    
+}
+.quick-Link ul li:hover a{
+    border-bottom: 2px solid dodgerblue;
+    font-weight: bold;
+    transition: 0.15s;
+}
+.contact-icon{
+    display: flex;
+    flex-direction: column;
+}
+.icons{
+    display: flex; 
+}
+/* .icons a {
+    color: black;
+} */
+/*  Footer end */

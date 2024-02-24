@@ -116,9 +116,9 @@ section{
 /*  Footer Start */
 footer{
     display: flex;
-    height: 30vh;
+    height: 35vh;
     margin-top: 10px;
-    background-color: rgb(210, 207, 207);
+    background-color: #304146;
 }
 .self-div{
     width: 25%;
@@ -127,12 +127,13 @@ footer{
     
 }
 .self-div h3{
+    color: #fff;
     text-align: start;
     margin-bottom: 10px;
 }
 .self-div p{
     text-align: start;
-    color: black;
+    color: #fff;;
     margin-left: 15px;
 
 } 
@@ -140,7 +141,7 @@ footer{
     margin-left: 10px;
 }
 .Social-icon a {
-    color: black;
+    color: #fff;
     font-size: large;
     margin: 0 10px;
 }
@@ -154,7 +155,7 @@ footer{
 .Manu-List ul li a{
     text-decoration: none;
     font-weight: normal;
-    color: black;    
+    color: #fff;   
 }
 .Manu-List ul li:hover a{
     border-bottom: 2px solid dodgerblue;
@@ -171,7 +172,7 @@ footer{
 .quick-Link ul li a{
     font-weight: normal;
     text-decoration: none;
-    color: black;    
+    color: #fff;    
 }
 .quick-Link ul li:hover a{
     border-bottom: 2px solid dodgerblue;
@@ -185,7 +186,7 @@ footer{
 .icons{
     display: flex; 
 }
-/* .icons a {
-    color: black;
-} */
+.icons a {
+    color: #fff;
+}
 /*  Footer end */

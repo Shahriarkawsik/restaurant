@@ -4,6 +4,12 @@
     box-sizing: border-box;
     /* font-size: 62.5%; */
 }
+body{
+    overflow-x: hidden;
+}
+header{
+    margin-top: 15px;
+}
 a{
     text-decoration: none;
 }
@@ -16,6 +22,9 @@ button{
 }
 .place_color{
     color: #F5B419;
+}
+.main_container{
+    padding: 0 25px;
 }
 /* Header Section Start */
 nav{
@@ -143,12 +152,23 @@ section{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    margin-top: 1.3rem;
-    
+    margin-top: 1.3rem;    
 }
 .burger-details{
     box-shadow: 0px 0px 100px #f5dba0;
     border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s;
+    padding: 25px;
+}
+.burger-details:hover{
+    scale: 1.1;
+}
+.burger-details h3{
+    margin-top: 5px;
+}
+.burger-details > p{
+    margin: 5px 0;
 }
 .burger-details img{
     width: 150px;
@@ -177,7 +197,10 @@ section{
     width: 30%; 
     box-shadow: 0px 0px 100px #f5dba0;
     border-radius: 15px;
-    padding: 5px;
+    padding: 20px;
+}
+.service_details_div h3{
+    margin: 10px 0;
 }
 .service_details_div img{
     margin: 5px;
@@ -186,10 +209,7 @@ section{
     height: 100px;
     object-fit: cover;
 }
-.service_details_div p{
-    text-align: justify;
-    padding: 4px;
-}
+
 /* Service section end */
 /* Contact Section start */
 .contact-section{

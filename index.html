@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant</title>
-    <link rel="stylesheet" href="style.css" />
+    
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -12,6 +12,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Header Section Start-->
@@ -25,7 +26,7 @@
           <li><a href="#">Service</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-        <i class="fa-thin fa-moon"></i>
+        <i class="fa-solid fa-moon"></i>
       </nav>
     </header>
     <!-- Header Section end-->
@@ -33,45 +34,45 @@
       <div>
         <h2>Food Taste</h2>
         <h3>The tasty food of your choice</h3>
-        <button>Viwe Manu</button>
+        <button>Viwe Menu</button>
       </div>
-      <div><img src="./image/burger.jpg" alt="" /></div>
+      <div class="hero_img_container"><img src="./image/burger.jpg" alt="" /></div>
     </section>
     <section class="about">
-      <div>
+      <div class="about_img_container">
         <img src="./image/burger.jpg" alt="" />
       </div>
-      <div>
-        <h5>About Us</h5>
-        <h2>We make good and tasty food</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est quis
+      <div class="about_info">
+        <p class="about_info_p">About Us</p>
+        <h2 about_info_h2>We make good and tasty food</h2>
+        <p class="about_info_p2">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>Est quis
           aperiam beatae ratione magnam facilis optio quia a error tempore!
         </p>
         <button>Read More</button>
       </div>
     </section>
-    <section class="manu">
-      <p class="place_me_center">Manu</p>
+    <section class="menu">
+      <p class="place_me_center menu_p">Menu</p>
       <h2 class="place_me_center">Taste menu of the week</h2>
       <div class="burger_container">
-          <div>
-            <i></i>
-            <img src="https://placehold.co/100x100" alt="A burgur image" />
+          <div class="burger-details">
+            <!-- <img src="https://placehold.co/100x100" alt="A burgur image" /> -->
+            <img src="./image/burger.jpg" alt="A burgur image" />
             <h3>Cheese Burger</h3>
             <p>Tasty Food</p>
             <p>$12.05</p>
           </div>
-          <div>
-            <i></i>
-            <img src="https://placehold.co/100x100" alt="A burgur image" />
+          <div class="burger-details">
+            <!-- <img src="https://placehold.co/100x100" alt="A burgur image" /> -->
+            <img src="./image/burger.jpg" alt="A burgur image" />
             <h3>Cheese Burger</h3>
             <p>Tasty Food</p>
             <p>$12.05</p>
           </div>
-          <div>
-            <i></i>
-            <img src="https://placehold.co/100x100" alt="A burgur image" />
+          <div class="burger-details">
+            <!-- <img src="https://placehold.co/100x100" alt="A burgur image" /> -->
+            <img src="./image/burger.jpg" alt="A burgur image" />
             <h3>Cheese Burger</h3>
             <p>Tasty Food</p>
             <p>$12.05</p>
@@ -79,42 +80,46 @@
       </div>
     </section>
     <section class="service">
-      <p>Services</p>
-      <h2>We Provide best food services</h2>
-      <div>
-        <img src="https://placehold.co/50x50" alt="" />
-        <h3>You Order</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          nam delectus facere illo eum, magnam modi recusandae quod ipsa
-          incidunt.
-        </p>
+      <p class="service_peragraph">Services</p>
+      <h2 class="service_h2">We Provide best food services</h2>
+      <div class="service_details">
+        <div class="service_details_div">
+          <img src="./image/order.png" alt="" />
+          <h3>You Order</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            nam delectus facere illo eum, magnam modi recusandae quod ipsa
+            incidunt.
+          </p>
+        </div>
+        <div class="service_details_div">
+          <img src="./image/shopping.png" alt="" />
+          <h3>Shipping</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            nam delectus facere illo eum, magnam modi recusandae quod ipsa
+            incidunt.
+          </p>
+        </div>
+        <div class="service_details_div">
+          <img src="./image/order-delivered.png" alt="Delivery icon" />
+          <h3>Delivered</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            nam delectus facere illo eum, magnam modi recusandae quod ipsa
+            incidunt.
+          </p>
+        </div>
       </div>
-      <div>
-        <img src="https://placehold.co/50x50" alt="" />
-        <h3>Shipping</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          nam delectus facere illo eum, magnam modi recusandae quod ipsa
-          incidunt.
-        </p>
-      </div>
-      <div>
-        <img src="https://placehold.co/50x50" alt="" />
-        <h3>Selivered</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          nam delectus facere illo eum, magnam modi recusandae quod ipsa
-          incidunt.
-        </p>
-      </div>
+      
+
     </section>
-    <section class="contact">
-      <div>
+    <section class="contact-section">
+      <div class="contact-now">
         <p>Let's Talk</p>
         <h2>Connect now</h2>
       </div>
-      <div>
+      <div class="contact-btn">
         <button>Contact Us</button>
       </div>
     </section>
